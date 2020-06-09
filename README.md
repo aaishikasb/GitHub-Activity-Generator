@@ -2,10 +2,14 @@
 
 Generate a GitHub Contributions Graph for the past year.
 
+![Issues](https://img.shields.io/github/issues/aaishikasb/GitHub-Activity-Generator) ![Stars](https://img.shields.io/github/stars/aaishikasb/GitHub-Activity-Generator) ![License](https://img.shields.io/github/license/aaishikasb/GitHub-Activity-Generator) ![Author](https://img.shields.io/badge/author-aaishikasb-orange)
+
 ## Working
 
 Initializes an Empty Repository with a README.md File and starts generating updates to the file with addition of `Contribution: YYYY-MM-DD HH:MM` for every sample commit.
 Uses the `--date` Switch to Create Commits in the Past.
+
+![After](After.PNG)
 
 ## Prerequisites
 
@@ -16,7 +20,7 @@ Uses the `--date` Switch to Create Commits in the Past.
 ## Usage
 
 - Create a new, empty repository on GitHub. Do not add a README.md File or initialize the repository.
-- Clone this Repository or copy the hack.py file and save it.
+- Clone this Repository or copy the [hack.py](hack.py) file and save it.
 - Execute the following Command(s):
   - `python hack.py --repository=https://github.com/user/repo.git` (HTTPS Method: Authenticate Account) [Suggested]
   - `python hack.py --repository=git@github.com:user/repo.git` (HTTP Method: Configure an SSH Access)
@@ -44,7 +48,7 @@ To create a new Switch, **Add** the below sample of code and make required chang
                         script performs commits. If N is specified, the script
                         will commit N%% of days in a year. The default value
                         is 80.""")`
-Also make amends to `Line 27` of hack.py to implement changes, if any.                       
+Also make amends to `Line 27` of [hack.py](hack.py) to implement changes, if any.                       
 
 ## Contributing
 
